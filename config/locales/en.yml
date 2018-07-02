@@ -39,6 +39,11 @@ en:
     new:
       signuppage: "This will be a signup page for new users."
       title: "Sign up"
+      confirm: "Confirmation"
+      create: "Create my account"
+
+    show:
+      error: "Not Found"
 
   layouts:
     footer:
@@ -48,6 +53,7 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
+
     header:
       home: "Home"
       help: "Help"
@@ -57,3 +63,6 @@ en:
   helpers:
     application:
       rtsa: "Ruby on Rails Tutorial Sample App"
+
+  shared:
+      formcont: "The form contains"
