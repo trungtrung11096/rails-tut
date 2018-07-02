@@ -6,15 +6,14 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
     return if @user
-      flash[:success] = t "users.show.error"
-      redirect_to root_url
-    end
+    flash[:success] = t ".error"
+    redirect_to root_url
   end
 
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t "static_pages.home.welcome"
+      flash[:success] = t ".welcome"
       redirect_to @user
     else
       render :new
