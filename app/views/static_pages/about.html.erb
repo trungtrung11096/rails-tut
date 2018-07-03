@@ -1,0 +1,21 @@
+<% provide(:title, "About") %>
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1> <%= t ".a" %></h1>
+    <p>
+      <%= t ".the" %> <%= link_to t("static_pages.help.tut"),
+      "http://www.railstutorial.org/" %>
+      <%= t ".isa" %>
+      <%= link_to t(".book"), "http://www.railstutorial.org/book"%>
+      <%= t ".and" %>
+      <%= link_to t(".screen"), "http://screencasts.railstutorial.org/"%>
+      <%= t ".teach" %>
+      <%= link_to t(".ror"), "http://rubyonrails.org/" %>
+      <%= t ".this" %>
+
+    </p>
+  </body>
+</html>
