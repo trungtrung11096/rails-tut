@@ -1,0 +1,7 @@
+  name:
+    maximum: 50
+  email:
+    maximum: 250
+  password:
+    minimum: 6
+  size: 80
