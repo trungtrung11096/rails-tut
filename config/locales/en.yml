@@ -41,6 +41,13 @@ en:
       title: "Sign up"
       confirm: "Confirmation"
       create: "Create my account"
+      login: "Log in"
+      users: "Users"
+      profile: "Profile"
+      logout: "Log out"
+      account: "Account"
+      error: "Not Found"
+      welcome: "Welcome to the Sample App"
 
     show:
       error: "Not Found"
@@ -66,3 +73,10 @@ en:
 
   shared:
       formcont: "The form contains"
+
+  sessions:
+    new:
+      title: "Log in"
+      now: "Sign up now!"
+      invaild: "Invalid email/password combination"
+      newuser: "New user?"
